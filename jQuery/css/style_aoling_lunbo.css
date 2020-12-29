@@ -1,0 +1,86 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+.tab {
+    width: 1135px;
+    height: 800px;
+    margin: 0 auto;
+    background-size: cover;
+
+}
+.tab .box {
+    width: 1135px;
+    background-image: url("../images/debut_light.png");
+    position: relative;
+    margin: 0 auto;
+    height: 800px;
+}
+.tab .box .menus {
+    width: 180px;
+    height: 630px;
+    background:#9d9d9d;
+    float: left;
+    margin-top: 85px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.tab .box .menus li {
+    width: 180px;
+    height: 85px;
+    background: #a8aaba;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    border-bottom: 1px solid #737373;
+    line-height: 85px;
+    transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+.tab .box .menus li:nth-child(7) {
+    border-bottom: none;
+}
+.tab .box .bg {
+    height: 130px !important;
+    background: #31a5e7 !important;
+    line-height: 130px !important;
+}
+.tab .right {
+    float: left;
+    width: 900px;
+    /*margin-top: 15px;*/
+    height: 800px;
+    overflow: hidden;
+    margin-left: 50px;
+}
+
+.tab .tab_right {
+    width: 950px;
+    height: 800px;
+    color: #fff;
+    text-align: center;
+
+
+    position:relative;
+}
+.tab .tab_right img {
+
+    width: 100%;
+    position: absolute;
+
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+}
+.tab .scroll {
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}

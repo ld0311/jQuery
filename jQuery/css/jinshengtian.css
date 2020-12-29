@@ -1,0 +1,35 @@
+#tuwen{
+
+    width: 1100px;
+    height: 350px;
+    margin-left: 15px;
+
+}
+
+#tu1{
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 320px;
+    height: 220px;
+
+}
+#tu2{
+    float: left;
+    margin-top: 100px;
+    margin-left: -250px;
+
+    width: 320px;
+    height: 220px;
+
+}
+#wen{
+float: right;
+    margin-right: 50px;
+    margin-top: 80px;
+    width: 490px;
+    height: 200px;
+    line-height: 150%;
+
+
+}

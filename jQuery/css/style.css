@@ -1,0 +1,50 @@
+
+body {
+margin: 0 auto;
+  width: 1134px;
+  height: 100vh;
+  align-items: center;
+  background-image: url("../images/debut_light.png");
+}
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #515151;
+}
+
+a:hover {
+  color: #31a5e7;
+}
+.nav{
+  background-color: #c9d6df;
+  height: 90px;
+
+}
+.nav .logo {
+  display: block;
+  width: 130px;
+  height: 90px;
+  float: left;
+}
+
+.nav .menu {
+  width: 700px;
+  height: 90px;
+  float: left;
+  font-size: 16px;
+  margin-left: 70px;
+}
+
+.nav .menu li {
+  width: 100px;
+  height: 90px;
+  line-height: 90px;
+  float: left;
+}
+
+/*以上为导航栏css*/
+
